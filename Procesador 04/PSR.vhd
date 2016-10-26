@@ -18,7 +18,7 @@ begin
 process(clk,rst, nzvc)
 begin
 	if(rising_edge(clk))then
-		if(rst='0')then
+		if(rst='1')then
 			carry <= nzvc(0);
 			cwp <= '0';
 		else

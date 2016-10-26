@@ -61,6 +61,10 @@ begin
 					ALUOP <= "010100";
 				when "100110" => --SRL
 					ALUOP <= "010101";
+				when "111100" => --SAVE
+					ALUOP <= "000110";
+				when "111101" => --RESTORE
+					ALUOP <= "000110";
 				when others => 
 					ALUOP <= "111111";
 			end case;

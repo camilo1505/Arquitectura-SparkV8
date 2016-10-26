@@ -28,6 +28,7 @@ begin
 process(cwp,rs1,rs2,rsd,op,op3)
 begin
 
+ncwp <= '1';
 ------Save-and-Restore------
 
 	if (op="10" and op3="111100") then -- Save

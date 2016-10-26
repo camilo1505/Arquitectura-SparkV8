@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Procesador04.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_procesador4_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_procesador4_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_procesador4_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1477516231" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1477516230">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1477516231" xil_pn:in_ck="8480336789303764904" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1477516231">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../Procesador 04/ALU.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/ExtSign.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/InstructionMemory.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/Multiplexor.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/PSR.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/PSRModifier.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/Procesador2.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/ProgramCounter.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/RF.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/Sumador.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/TB_procesador4.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/UC.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/Win_man.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1477516231" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6517375832274016005" xil_pn:start_ts="1477516231">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1477516231" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4073314838838668803" xil_pn:start_ts="1477516231">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1477516231" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-3179080138417148306" xil_pn:start_ts="1477516231">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1477516231" xil_pn:in_ck="8480336789303764904" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1477516231">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../Procesador 04/ALU.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/ExtSign.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/InstructionMemory.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/Multiplexor.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/PSR.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/PSRModifier.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/Procesador2.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/ProgramCounter.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/RF.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/Sumador.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/TB_procesador4.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/UC.vhd"/>
+      <outfile xil_pn:name="../Procesador 04/Win_man.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1477516245" xil_pn:in_ck="8480336789303764904" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1697797253842253678" xil_pn:start_ts="1477516231">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TB_procesador4_beh.prj"/>
+      <outfile xil_pn:name="TB_procesador4_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1477518157" xil_pn:in_ck="3945001942731528426" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8343281763488549265" xil_pn:start_ts="1477518157">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TB_procesador4_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>

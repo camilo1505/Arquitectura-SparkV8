@@ -1,0 +1,44 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/TB_procesador4_isim_beh.exe" -prj "C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/TB_procesador4_beh.prj" "work.TB_procesador4" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/../Procesador 04/Win_man.vhd" into library work
+Parsing VHDL file "C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/../Procesador 04/UC.vhd" into library work
+Parsing VHDL file "C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/../Procesador 04/Sumador.vhd" into library work
+Parsing VHDL file "C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/../Procesador 04/RF.vhd" into library work
+Parsing VHDL file "C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/../Procesador 04/PSRModifier.vhd" into library work
+Parsing VHDL file "C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/../Procesador 04/PSR.vhd" into library work
+Parsing VHDL file "C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/../Procesador 04/ProgramCounter.vhd" into library work
+Parsing VHDL file "C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/../Procesador 04/Multiplexor.vhd" into library work
+Parsing VHDL file "C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/../Procesador 04/InstructionMemory.vhd" into library work
+Parsing VHDL file "C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/../Procesador 04/ExtSign.vhd" into library work
+Parsing VHDL file "C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/../Procesador 04/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/../Procesador 04/Procesador2.vhd" into library work
+Parsing VHDL file "C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/../Procesador 04/TB_procesador4.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling architecture behavioral of entity Win_man [win_man_default]
+Compiling architecture behavioral of entity PSR [psr_default]
+Compiling architecture behavioral of entity PSRModifier [psrmodifier_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity ExtSign [extsign_default]
+Compiling architecture behavioral of entity Multiplexor [multiplexor_default]
+Compiling architecture behavioral of entity ProgramCounter [programcounter_default]
+Compiling architecture behavioral of entity Sumador [sumador_default]
+Compiling architecture arqinstructionmemory of entity instructionMemory [instructionmemory_default]
+Compiling architecture behavioral of entity RF [rf_default]
+Compiling architecture behavioral of entity UC [uc_default]
+Compiling architecture behavioral of entity Procesador4 [procesador4_default]
+Compiling architecture behavior of entity tb_procesador4
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 30 VHDL Units
+Built simulation executable C:/Users/crist/Documents/Arquitectura-SparkV8/Procesador04/TB_procesador4_isim_beh.exe
+Fuse Memory Usage: 34988 KB
+Fuse CPU Usage: 1218 ms
