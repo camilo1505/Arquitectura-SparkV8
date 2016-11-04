@@ -1,0 +1,94 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/Procesado6/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.39 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/Procesado6/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.39 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/MuxAlu is now defined in a different file.  It was defined in "C:/Users/Daniela Gomez/Desktop/Procesador 04/Procesado4/MuxAlu.vhd", and is now defined in "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/MuxAlu.vhd".
+WARNING:HDLParsers:3607 - Unit work/MuxAlu/Behavioral is now defined in a different file.  It was defined in "C:/Users/Daniela Gomez/Desktop/Procesador 04/Procesado4/MuxAlu.vhd", and is now defined in "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/MuxAlu.vhd".
+WARNING:HDLParsers:3607 - Unit work/RF is now defined in a different file.  It was defined in "C:/Users/Daniela Gomez/Desktop/Procesador 04/RF.vhd", and is now defined in "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/RF.vhd".
+WARNING:HDLParsers:3607 - Unit work/RF/Behavioral is now defined in a different file.  It was defined in "C:/Users/Daniela Gomez/Desktop/Procesador 04/RF.vhd", and is now defined in "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/RF.vhd".
+WARNING:HDLParsers:3607 - Unit work/UC is now defined in a different file.  It was defined in "C:/Users/Daniela Gomez/Desktop/Procesador 04/UC.vhd", and is now defined in "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/UC.vhd".
+WARNING:HDLParsers:3607 - Unit work/UC/Behavioral is now defined in a different file.  It was defined in "C:/Users/Daniela Gomez/Desktop/Procesador 04/UC.vhd", and is now defined in "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/UC.vhd".
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/Win_man.vhd" in Library work.
+Entity <Win_man> compiled.
+Entity <Win_man> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/PSR.vhd" in Library work.
+Entity <PSR> compiled.
+Entity <PSR> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/PSRModifier.vhd" in Library work.
+Entity <PSRModifier> compiled.
+Entity <PSRModifier> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/ALU.vhd" in Library work.
+Entity <ALU> compiled.
+Entity <ALU> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/ExtSign.vhd" in Library work.
+Entity <ExtSign> compiled.
+Entity <ExtSign> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/Multiplexor.vhd" in Library work.
+Entity <Multiplexor> compiled.
+Entity <Multiplexor> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/ProgramCounter.vhd" in Library work.
+Entity <ProgramCounter> compiled.
+Entity <ProgramCounter> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/Sumador.vhd" in Library work.
+Entity <Sumador> compiled.
+Entity <Sumador> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/InstructionMemory.vhd" in Library work.
+Entity <instructionMemory> compiled.
+Entity <instructionMemory> (Architecture <arqInstructionMemory>) compiled.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/RF.vhd" in Library work.
+Architecture behavioral of Entity rf is up to date.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/UC.vhd" in Library work.
+Architecture behavioral of Entity uc is up to date.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/SEU13.vhd" in Library work.
+Entity <SEU22> compiled.
+Entity <SEU22> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/SEU30.vhd" in Library work.
+Entity <SEU30> compiled.
+Entity <SEU30> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/MuxRF.vhd" in Library work.
+Entity <MuxRFSource> compiled.
+Entity <MuxRFSource> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/MuxPC.vhd" in Library work.
+Entity <MuxPC> compiled.
+Entity <MuxPC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/MuxAlu.vhd" in Library work.
+Architecture behavioral of Entity muxalu is up to date.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/DataMemory.vhd" in Library work.
+Entity <DataMemory> compiled.
+Entity <DataMemory> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/Procesador2.vhd" in Library work.
+Entity <Procesador6> compiled.
+ERROR:HDLParsers:164 - "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/Procesador2.vhd" Line 279. parse error, unexpected COMMA
+ERROR:HDLParsers:164 - "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/Procesador2.vhd" Line 284. parse error, unexpected COMMA
+ERROR:HDLParsers:164 - "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/Procesador2.vhd" Line 289. parse error, unexpected COMMA
+ERROR:HDLParsers:164 - "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/Procesador2.vhd" Line 297. parse error, unexpected COMMA
+ERROR:HDLParsers:164 - "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/Procesador2.vhd" Line 306. parse error, unexpected COMMA
+ERROR:HDLParsers:164 - "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/Procesador2.vhd" Line 313. parse error, unexpected COMMA
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.95 secs
+ 
+--> 
+
+Total memory usage is 216364 kilobytes
+
+Number of errors   :    6 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

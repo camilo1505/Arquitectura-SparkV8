@@ -1,0 +1,1 @@
+vhdtdtfi -prj Procesado6 -o "C:/Users/utp.CRIE/Downloads/PortableGit/Arquitectura-SparkV8/Procesador 6/Procesado6/Win_man.vhi" -module Win_man -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../Win_man.vhd 
