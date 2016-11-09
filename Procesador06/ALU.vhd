@@ -15,7 +15,7 @@ end ALU;
 
 architecture Behavioral of ALU is
 
---
+--------
 begin
 
 	process(A,B,ALUOP)
