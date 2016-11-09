@@ -15,6 +15,7 @@ end ALU;
 
 architecture Behavioral of ALU is
 
+--
 begin
 
 	process(A,B,ALUOP)
@@ -65,7 +66,7 @@ begin
 			when "010101" => --SRL
 				ALUResult <= to_stdlogicvector(to_bitvector(A)srl conv_integer(B));
 			when others =>
-				ALUResult <= "11111111111111111111111111111111";
+				ALUResult <= "00000000000000000000000000000000";
 		end case;
 	end process;
 	

@@ -9,7 +9,6 @@ entity ProgramCounter is
            PC_out : out  STD_LOGIC_VECTOR (31 downto 0));
 end ProgramCounter;
 
-
 architecture Behavioral of ProgramCounter is
 
 begin
